@@ -1,0 +1,25 @@
+# API-Keys — niemals ins Repository
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+venv/
+env/
+.venv/
+
+# RAG Index-Dateien (lokal generiert)
+storage/
+chroma_db/
+
+# Betriebssystem
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
